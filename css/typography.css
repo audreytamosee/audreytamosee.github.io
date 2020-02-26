@@ -2,34 +2,261 @@ h1 {
   font-family: 'raleway', sans-serif;
   font-size: 100px;
   text-transform: uppercase;
+  margin-top: 50px;
 }
   
 h2 {
-  font-family: 'raleway', serif;
-  font-size: 30px;
+  font-family: 'Comic Sans MS', Sans-serif;
+  font-size: 20px;
   text-transform: uppercase;
+  margin-bottom: 10px;
   padding-bottom: 20px;
-  padding-left: 0px;
-  padding-top: 20px;
-  color: deeppink;
 }
   
-h3 {
+  
+.satu p {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  text-transform: none
+}
+
+
+.satu h3 {
+  font-family: 'futura', sans-serif;
+  font-size: 40px;
+  font-variant: bold;
+  color: black;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.satu h4 {
   font-family: 'futura', sans-serif;
   font-size: 20px;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-h4 {
-  font-family: 'futura', sans-serif;
-  font-size: 20px;
-  text-transform: uppercase;
+.satu h5 {
+  font-family: 'Courier New', serif;
+  font-size: 25px;
+  text-transform: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-p {
+.satu h6 {
   font-family: 'futura', sans-serif;
   font-size: 18px;
-  text-transform: lowercase;
+  text-transform: none;
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+
+.satusatu h4 {
+  font-family: 'futura', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+.satusatu p {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  text-transform: none
+}
+
+.satusatu h6 {
+  font-family: 'futura', sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  color: gray;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.satu p {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  text-transform: none
+}
+
+
+.satu h3 {
+  font-family: 'futura', sans-serif;
+  font-size: 40px;
+  font-variant: bold;
+  color: black;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.dua h3 {
+  font-family: 'futura', sans-serif;
+  font-size: 40px;
+  font-variant: bold;
+  color: black;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.dua h4 {
+  font-family: 'futura', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dua h5 {
+  font-family: 'Courier New', serif;
+  font-size: 25px;
+  text-transform: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dua h6 {
+  font-family: 'futura', sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.dua p {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  text-transform: none
+}
+
+
+.duasatu h4 {
+  font-family: 'futura', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.duasatu p {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  text-transform: none
+}
+
+.duasatu h6 {
+  font-family: 'futura', sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  color: gray;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.tiga h5 {
+  font-family: 'Courier New', serif;
+  font-size: 25px;
+  text-transform: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tiga h6 {
+  font-family: 'futura', sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.tiga p {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  text-transform: none
+}
+
+
+.tiga h3 {
+  font-family: 'futura', sans-serif;
+  font-size: 40px;
+  font-variant: bold;
+  color: black;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.tiga h4 {
+  font-family: 'futura', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.empat h5 {
+  font-family: 'Courier New', serif;
+  font-size: 25px;
+  text-transform: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.empat h6 {
+  font-family: 'futura', sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.empat p {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  text-transform: none
+}
+
+.selalukananatas {
+  font-family: 'futura', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card p {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size:15px;
+  text-transform: none
 }
   
   
@@ -42,3 +269,29 @@ section {font-family: 'calibri'sans-serif;
 font-size:13px;
 text-transform: uppercase;
 }
+
+@media (max-width: 414px) {
+  main {
+    width: 100vw;
+  }
+  
+  .satu {
+    width: 120vw;
+  }
+  
+  section.full2 {
+    width: 100%;
+    background-size: cover;
+  }
+  
+  section.full {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+  }
+  
+  .melayang {
+    width: 100vw;
+    height: 120vw;
+  }
+  
