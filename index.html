@@ -1,44 +1,287 @@
 <!doctype html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width" />
+    <title>DISNEY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/global.css" />
     <link rel="stylesheet" type="text/css" href="css/typography.css" />
   </head>
   <body>
-  <nav>
+    <nav>
       <main>
-        <div class = selalukananatas>a</div>
-        <div class="dropdown"><a href="index.html" class="dropbtn">Home</a></div>
-        <div class="dropdown">
-        <a href="#" class="dropbtn">Text Formatting</a>
-          <div class="dropdown-content">
-            <a href="about.html">kerning</a>
-            <a href="contact.html">ordinals</a>
-          </div>
-        </div>
-        <div class="dropdown">
-        <a href="#" class="dropbtn">Page Layout</a>
-          <div class="dropdown-content">
-            <a href="column.html">columns</a>
-            <a href="footnotes.html">footnotes</a>
-        </div>
-        </div>
+        <a href="index.html" class="menu">DISNEYLAND</a>
+        <a href="thingstodo.html" class="menu">ENTERTAINMENT</a>
+        <a href="attraction.html" class="menu">TOP ATTRACTION</a>
       </main>
     </nav>
- 
+    
     <section class="full">
       <main>
-        <div class="melayang">
-          <h1>TYPOGRAPHY</h1>
-          <h2>Typography is the visual component of the written word</h2>
-          <div class = "satu">
-          <p>A text is a sequence of words. A text stays the same no matter how it's rendered. Consider the sentence "I like pizza." I can print that text on a piece of paper, or read it aloud, or save it in a file on my laptop. It'll be the same text, just rendered different ways-visually, audibly, digitally </p>
-          <p>But then "I like pizza" is printed, typography gets involved. All the visually displayed text involves typography-whether it's on paper, a computer screen, or a billboard </p>
-          <p>Is typography an art? that's like asking if photography is an art. Some photographers and typographers use techniques that raise their work to the level of art. But at their core, both photography and typography have a utilitarian function. The aesthetic component is separate. Being an effective typographer is more about good skills than good taste. And you can learn the skills. </p>
+        <div class="home-page-container">
+          <div class="home-page-left">
+            <div class="logo-disney-container">
+              <img src="image/hklogo.png">
+            </div>
+          </div>
+          <div class="bigposter">
+            <div class="synopsis">
+              <p>Mickey Mouse parade is the most favorite parade in disneyland. Unleash your imagination when Mickey Mouse lights up the night with a procession of Disney Characters and a pageant of magical visions.</p>
+            </div>
+            <div class="button">
+              <div class="mylist" onclick="opencontent5('0')"><p>BUY TICKET</p></div>
+            </div>
+          </div>
+          <div class="button-trending-container" onclick="scrollToTrending()">
+            <img src="image/logo_mickey.png">
+            <div class="button-trending-text">
+              <p>TRENDING</p>
+              <p>NOW</p>
+            </div>
           </div>
         </div>
       </main>
     </section>
+    <section id="trending-now" class="trending-now">
+      <h1 class="title-trending-now">TRENDING NOW</h1>
+      <div class="filmone">
+        <div class="filmposter" onclick="opencontent('0')">
+          <img class="image-filmposter" src="image/jungs.jpg"/>
+          <p>NEW! Jungle River Cruise</p>
+        </div>
+        <div class="filmposter" onclick="opencontent1('0')">
+          <img class="image-filmposter" src="image/parade1.jpg"/>
+          <p>Flights of Fantasy Parade</p>
+        </div>
+        <div class="filmposter" onclick="opencontent2('0')">
+          <img class="image-filmposter" src="image/hotel2.jpg"/>
+          <p>Disneyland Hotel</p>
+        </div>
+        <div class="filmposter" onclick="opencontent3('0')">
+          <img class="image-filmposter" src="image/hyper1.jpg"/>
+          <p>Hyperspace Mountain</p>
+        </div>
+        <div class="filmposter" onclick="opencontent4('0')">
+          <img class="image-filmposter" src="image/food1.jpg"/>
+          <p>Walt's Cafe</p>
+        </div>
+      </div>
+    </section>
+ 
+    
+    
+    <section id="infoo1" class="full1">
+      <div class="margin">
+        <div class="judul">
+          <img src="image/hklogo.png" width="90%">
+        </div>
+        <div class="description">
+          <h3>BOOKING YOUR TICKETS</h3>
+          <h1>Experience the magic of Hong Kong Disneyland Park with a 1-Day or 2-Day ticket and special offers. As a precautionary measure in line with preventive efforts taking place across Hong Kong, we are temporarily closing Hong Kong Disneyland Park out of consideration for the health and safety of our Guests and Cast Members. We are in close contact with health authorities and the government about the situation and will announce a reopening date once they determine.</h1>
+          <h2>Select your numbers of ticket:</h2>
+        </div>
+        <div class ="kotakbesar">
+			<div class="kotakkotak">
+          <div class ="kotak1">
+            <div class = "tombol1">
+              <input type="number">
+              
+            </div>
+            <div class ="teks1">
+              <h1>Adult (ages 12-64)</h1>
+            </div>
+            
+          </div>
+          <div class ="kotak2">
+            <div class = "tombol1">
+              <input type="number">
+              
+            </div>
+            <div class ="teks1">
+              <h1>Children (ages 3-11)</h1>
+            </div>
+            </div>
+				</div>
+          <div class ="kotak3">
+          <div class = "buy" onclick="openbuy('0')">
+            <h1>buy</h1>
+          </div>
+          <div class ="harga">
+            <h1>Ages 12-64 = HK $738</h1>
+            <h1>Ages 3-11 = HK $549</h1>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <section id="infoo2" class="full2">
+      <main>
+        <div class="judul">
+          <img src="image/new1.png" width="80%">
+        </div>
+        <div class="description">
+          <h1>Guest Can Be: Any Height </h1>
+          <h1>Age Interest: All Ages</h1>
+          <h1>Thrill Types: Slow Rides, Water Rides, Loud, Scary</h1>
+          <h2>About Jungle River Cruise:</h2>
+          <h1>The Jungle Cruise is a river boat attraction located in Adventureland at many Disney Parks worldwide, namely Disneyland, Magic Kingdom, Tokyo Disneyland, and Hongkong Disneyland (the attraction at Hong Kong Disneyland named "Jungle River Cruise"). This attraction is the longest queue at Disneyland, because in this attraction you can explore a jungle with a storyteller and there are many attractive things like an elephant can spray a water from their mouth</h1>
+        </div>
+        <div class= "fotofoto">
+        </div>
+      </main>
+    </section>
+    
+    <section id="infoo3" class="full3">
+      <main>
+        <div class="judul">
+          <img src="image/flights.png" width="80%">
+        </div>
+        <div class="description">
+          <h1>Location: Main Street, U.S.A</h1>
+          <h1>Age Interest: All Ages</h1>
+          <h1>Duration: 35 minutes</h1>
+          <h2>About Flights of Fantasy Parade:</h2>
+          <h1>You should watch this parade! The music is so darling! The song is in English and Chinese! It is super catchy and fun to listen to, also interactive – the parade makes frequent stops in the route where they hand out ribbon wands to kids in the audience to come dance with them! It goes on for an entire song so everyone really gets into it! If you can time it just right to be by the start of the parade with the Mickey and Minnie float, its a great place for this. If you watch the parade in front of the Castle or at the beginning of Main Street you can catch the stops.</h1>
+        </div>
+      </main>
+    </section>
+    
+    <section id="infoo4" class="full4">
+      <main>
+        <div class="judul">
+          <img src="image/hotel1.png" width="80%">
+        </div>
+        <div class="description">
+          <h1>Start Price: $1350HKD - $5850HKD/night</h1>
+          <h2>About Hotel:</h2>
+          <h1>Savor exquisite dining from around the globe, lounge the day away with a cocktail poolside or explore a garden maze in the shape of Mickey Mouse. Boasting stately accommodations with modern amenities plus live music in the grand 6-story lobby , this architectural marvel combines the splendor of a vintage seaside resort with the magic of Disney.</h1>
+        </div>
+        <div class="fotofotofoto">
+        </div>
+        <div class="fotosatu">
+        </div>
+        <div class="fotodua">
+        </div>
+      </main>
+    </section>
+    
+    <section id="infoo5" class="full5">
+      <main>
+        <div class="judul">
+          <img src="image/hyperteks.png" width="80%">
+        </div>
+        <div class="description">
+          <h1>Location: Tomorrowland</h1>
+          <h1>Guests Must Be: 102cm (40in) or Taller</h1>
+          <h1>Age Interest: Tweens, Teens, Adults</h1>
+          <h1>Cast Starring: Kiernan Shipka, Rose Lynch, Miranda Otto</h1>
+          <h2>About Hyperspace Mountain:</h2>
+          <h1>The thrills become even more intense when you rocket into the middle of a Star Wars™ battle in this reimagining of the classic Space Mountain attraction!.</h1>
+        </div>
+      </main>
+    </section>
+    
+    
+    <section id="infoo6" class="full6">
+      <main>
+        <div class="judul">
+          <img src="image/walteks.png" width="80%">
+        </div>
+        <div class="description">
+          <h1>Types: Vegetarian, Western Cuisine</h1>
+          <h1>Open Hours: 7.30am-10.30pm</h1>
+          <h1>Price: (HK $200-HK $500)</h1>
+          <h2>About Walt's Cafe:</h2>
+          <h1>The restaurant is located inside the Hong Kong Disneyland Hotel to the left of the hotel lobby. This is a fun option to eat while staying here.Reservations are available at the hotel by calling +852 3510-6000. The cast members speak English and Chinese so you can easily make reservations</h1>
+        </div>
+      </main>
+    </section>
+    
+    <section id="buyopen" class="beli">
+      <div class="beli1">
+        <h1>Thankyou for booking your tickets! We will announce you later for the next payment</h1>
+      </div>
+      
+      <div class="beli2" onclick="closebuy('0')">
+        <h1>close</h1>
+      </div>
+      
+    </section>
+    
+    <script>
+      function opencontent(x) {
+        document.getElementById('infoo2').style.display = "block";
+        document.getElementById('infoo3').style.display = "none";
+        document.getElementById('infoo4').style.display = "none";
+        document.getElementById('infoo5').style.display = "none";
+        document.getElementById('infoo6').style.display = "none";
+        document.getElementById('infoo1').style.display = "none";
+        document.getElementById('infoo2').scrollIntoView();
+      }
+      
+      function opencontent1(x) {
+        document.getElementById('infoo3').style.display = "block";
+        document.getElementById('infoo2').style.display = "none";
+        document.getElementById('infoo4').style.display = "none";
+        document.getElementById('infoo5').style.display = "none";
+        document.getElementById('infoo6').style.display = "none";
+        document.getElementById('infoo1').style.display = "none";
+        document.getElementById('infoo3').scrollIntoView();
+      }
+      
+      function opencontent2(x) {
+        document.getElementById('infoo4').style.display = "block";
+        document.getElementById('infoo2').style.display = "none";
+        document.getElementById('infoo3').style.display = "none";
+        document.getElementById('infoo5').style.display = "none";
+        document.getElementById('infoo6').style.display = "none";
+        document.getElementById('infoo1').style.display = "none";
+        document.getElementById('infoo4').scrollIntoView();
+      }
+      
+      function opencontent3(x) {
+        document.getElementById('infoo5').style.display = "block";
+        document.getElementById('infoo2').style.display = "none";
+        document.getElementById('infoo3').style.display = "none";
+        document.getElementById('infoo4').style.display = "none";
+        document.getElementById('infoo6').style.display = "none";
+        document.getElementById('infoo1').style.display = "none";
+        document.getElementById('infoo5').scrollIntoView();
+      }
+      
+      function opencontent4(x) {
+        document.getElementById('infoo6').style.display = "block";
+        document.getElementById('infoo2').style.display = "none";
+        document.getElementById('infoo3').style.display = "none";
+        document.getElementById('infoo4').style.display = "none";
+        document.getElementById('infoo5').style.display = "none";
+        document.getElementById('infoo1').style.display = "none";
+        document.getElementById('infoo6').scrollIntoView();
+      }
+      
+      function opencontent5(x) {
+        document.getElementById('infoo1').style.display = "block";
+        document.getElementById('infoo2').style.display = "none";
+        document.getElementById('infoo3').style.display = "none";
+        document.getElementById('infoo4').style.display = "none";
+        document.getElementById('infoo5').style.display = "none";
+        document.getElementById('infoo6').style.display = "none";
+        document.getElementById('infoo1').scrollIntoView();
+      }
+
+      function scrollToTrending() {
+        document.getElementById('trending-now').scrollIntoView();
+      }
+      
+      function openbuy(x) {
+      document.getElementById('buyopen').style.display = "block";
+      }
+      
+      function closebuy(x) {
+      document.getElementById('buyopen').style.display = "none";
+      }
+    </script>
   </body>
 </html>

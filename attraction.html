@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DISNEY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/typography.css" />
+  </head>
+  <body>
+    <nav>
+      <main>
+        <a href="index.html" class="menu">DISNEYLAND</a>
+        <a href="thingstodo.html" class="menu">ENTERTAINMENT</a>
+        <a href="attraction.html" class="menu">TOP ATTRACTION</a>
+      </main>
+    </nav>
+    
+    <section class = "penuh1">
+      <div class="mainbody1">
+        <div class ="pic1" onclick="turun1('0')">
+        </div>
+        <div class ="pic2" onclick="turun2('0')">
+          
+        </div>
+        <div class ="pic3" onclick="turun3('0')">
+          
+        </div>
+        <div class ="pic4" onclick="turun4('0')">
+          
+        </div>
+        <div class ="pic5" onclick="turun5('0')">
+          
+        </div>
+        <div class ="pic6" onclick="turun6('0')">
+      </div>
+
+      </div>
+      <div class ="mainbody2">
+        <div id="pop1" class = "infoo1">
+          <div class = "lebar1"></div>
+          <div class = "lebar2">
+            <h2>Toy Soldier Parachute Drop</h2>
+          </div>
+          <div class ="lebar3">
+            <h3>Drop from the sky with Toy Soldiers from Toy Story during a parachuting drill with thrills!</h3>
+            <h1>Location: Toy Story Land</h1>
+            <h1>Guests Must Be: 81 cm (32in) or Taller</h1>
+            <h1>Age Interest: Kids, Tweens, Teens, Adults, Single Rider Available</h1>
+            <h1>Thrill Type: Big Drops, Thrill Rides</h1>
+          </div>
+        </div>
+        
+        <div id="pop2" class = "infoo2">
+          <div class = "lebar01"></div>
+          <div class = "lebar2">
+            <h2>Orbitron</h2>
+          </div>
+          <div class ="lebar3">
+            <h3>Pilot your very own flying saucer high above Tomorrowland amid a glistening galaxy of orbiting planets. </h3>
+            <h1>Location: Tomorrowland</h1>
+            <h1>Guests Can Be: Any Height </h1>
+            <h1>Age Interest: All Ages</h1>
+            <h1>Thrill Type: Small Drops, Slow Rides, Spinning</h1>
+            
+          </div>
+        </div>
+        
+        <div id="pop3" class = "infoo3">
+          <div class = "lebar02"></div>
+          <div class = "lebar2">
+            <h2>Tarzan'z Tree House</h2>
+          </div>
+          <div class ="lebar3">
+            <h3>Climb to high adventure—and behold sweeping park views—during a walk-through tour of Tarzan’s jungle home</h3>
+            <h1>Location: Adventureland</h1>
+            <h1>Guests Can Be: Any Height </h1>
+            <h1>Age Interest: All Ages</h1>
+            <h1>Thrill Type: Walking, Climbing</h1>
+          </div>
+        </div>
+        
+        <div id="pop4" class = "infoo4">
+          <div class = "lebar03"></div>
+          <div class = "lebar2">
+            <h2>RC Racer</h2>
+          </div>
+          <div class ="lebar3">
+            <h3>Hop aboard RC for a thrilling, gravity-defying race, speeding back and forth on a soaring U-shaped track.</h3>
+            <h1>Location: Toystory Land</h1>
+            <h1>Guests Can Be: 120cm (40in) or Taller </h1>
+            <h1>Age Interest: Tweens, Teens, Adults</h1>
+            <h1>Thrill Type: Big Drops, Thrill Rides</h1>
+          </div>
+        </div>
+        
+        <div id="pop5" class = "infoo5">
+          <div class = "lebar04"></div>
+          <div class = "lebar2">
+            <h2>Big Grizzly Mountain Runaway Mine Cars</h2>
+          </div>
+          <div class ="lebar3">
+            <h3>Dash in and out of twisting caverns and rumble through Grizzly Gulch aboard a speeding mine train</h3>
+            <h1>Location: Grizzly Gulch</h1>
+            <h1>Guests Can Be: 112 cm (44in) or Taller </h1>
+            <h1>Age Interest: Tweens, Teens, Adults</h1>
+            <h1>Thrill Type: Big Drops, Thrill Rides</h1>
+          </div>
+        </div>
+        
+        <div id="pop6" class = "infoo6">
+          <div class = "lebar05"></div>
+          <div class = "lebar2">
+            <h2>Cinderella Carousel</h2>
+          </div>
+          <div class ="lebar3">
+            <h3>Spin around, up and down to joyous music atop a regal steed at this classic attraction inspired by Disney’s Cinderella. </h3>
+            <h1>Location: Fantasyland</h1>
+            <h1>Guests Can Be: Any Height </h1>
+            <h1>Age Interest: All Ages</h1>
+            <h1>Thrill Type: Slow Rides, Spinning</h1>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    <script>
+      function turun1(x) {
+        document.getElementById('pop1').style.display = "block";
+        document.getElementById('pop2').style.display = "none";
+        document.getElementById('pop3').style.display = "none";
+        document.getElementById('pop4').style.display = "none";
+        document.getElementById('pop5').style.display = "none";
+        document.getElementById('pop6').style.display = "none";
+      }
+      
+      function turun2(x) {
+        document.getElementById('pop1').style.display = "none";
+        document.getElementById('pop2').style.display = "block";
+        document.getElementById('pop3').style.display = "none";
+        document.getElementById('pop4').style.display = "none";
+        document.getElementById('pop5').style.display = "none";
+        document.getElementById('pop6').style.display = "none";
+      }
+      
+      function turun3(x) {
+        document.getElementById('pop1').style.display = "none";
+        document.getElementById('pop2').style.display = "none";
+        document.getElementById('pop3').style.display = "block";
+        document.getElementById('pop4').style.display = "none";
+        document.getElementById('pop5').style.display = "none";
+        document.getElementById('pop6').style.display = "none";
+      }
+      
+      function turun4(x) {
+        document.getElementById('pop1').style.display = "none";
+        document.getElementById('pop2').style.display = "none";
+        document.getElementById('pop3').style.display = "none";
+        document.getElementById('pop4').style.display = "block";
+        document.getElementById('pop5').style.display = "none";
+        document.getElementById('pop6').style.display = "none";
+      }
+      
+      function turun5(x) {
+        document.getElementById('pop1').style.display = "none";
+        document.getElementById('pop2').style.display = "none";
+        document.getElementById('pop3').style.display = "none";
+        document.getElementById('pop4').style.display = "none";
+        document.getElementById('pop5').style.display = "block";
+        document.getElementById('pop6').style.display = "none";
+      }
+      
+      function turun6(x) {
+        document.getElementById('pop1').style.display = "none";
+        document.getElementById('pop2').style.display = "none";
+        document.getElementById('pop3').style.display = "none";
+        document.getElementById('pop4').style.display = "none";
+        document.getElementById('pop5').style.display = "none";
+        document.getElementById('pop6').style.display = "block";
+      }
+    </script>
+    </body>
+    </html>
